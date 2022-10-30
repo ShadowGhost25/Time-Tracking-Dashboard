@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Oswald', sans-serif;
+    line-height: 1.7;
+    background-color: var(--color-light);
+}
+:root {
+    --color-gradient:linear-gradient(blue, pink);
+    --color-unaccent:rgb(35, 66, 6);
+    --color-light: ntiquewhite;
+    --color-rgb: rgba(20, 60, 93, 0.4);
+    --spacing-small: 10px;
+    --spacing-medium: 15px;
+    --spacing-large: 30px;
+    --box-shadow: 10px 5px 5px rgb(147, 162, 179);
+    --border-radius: 7px;
+}

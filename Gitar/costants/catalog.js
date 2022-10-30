@@ -1,0 +1,32 @@
+const CATALOG = [
+    {
+        id: 'el1',
+        name: 'Fender Player Stratocaster HSS Pau Ferro Fingerboard Limited-Edition Electric Guitar Candy Red Burst',
+        img: './images/electro.jpg',
+        price: 679.99,
+    },
+    {
+        id: 'el2',
+        name: 'Martin Special GPC All-Solid Grand Performance Acoustic-Electric Guitar Natural',
+        img: './images/akustic.jpg',
+        price: 849.99,
+    },
+    {
+        id: 'el3',
+        name: 'Schecter Guitar Research Omen Elite-4 4-String Electric Bass Guitar See-Thru Blue Burst',
+        img: './images/bass.jpg',
+        price: 499.42,
+    },
+    {
+        id: 'el4',
+        name: 'Fender FA-135CE All-Mahogany Concert Acoustic-Electric Guitar Mahogany',
+        img: './images/akustic2.jpg',
+        price: 169.99,
+    },
+    {
+        id: 'el5',
+        name: 'Fender Custom Shop 1961 Jazz Bass Heavy Relic Aged Lake Placid Blue',
+        img: './images/bass2.jpg',
+        price: 649.99,
+    }
+]
