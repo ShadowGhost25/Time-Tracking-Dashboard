@@ -12,9 +12,10 @@ body{
 :root {
     --color-gradient:linear-gradient(blue, pink);
     --color-unaccent:rgb(35, 66, 6);
-    --color-light: ntiquewhite;
+    --color-light: rgb(209, 201, 202);
     --color-rgb: rgba(20, 60, 93, 0.4);
     --color-medium: rgba(20, 60, 93, 0.4);
+    --color-dark: #302e2e;
 
     --spacing-small: 10px;
     --spacing-medium: 15px;
@@ -22,4 +23,16 @@ body{
 
     --box-shadow: 10px 5px 5px rgb(147, 162, 179);
     --border-radius: 7px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--color-dark);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: var(--color-light);
 }
