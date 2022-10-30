@@ -14,9 +14,12 @@ body{
     --color-unaccent:rgb(35, 66, 6);
     --color-light: ntiquewhite;
     --color-rgb: rgba(20, 60, 93, 0.4);
+    --color-medium: rgba(20, 60, 93, 0.4);
+
     --spacing-small: 10px;
     --spacing-medium: 15px;
     --spacing-large: 30px;
+
     --box-shadow: 10px 5px 5px rgb(147, 162, 179);
     --border-radius: 7px;
 }
