@@ -10,7 +10,7 @@ let CATALOG = [];
 
 //http://myjson.dit.upm.es/api/bins/e986
 
-fetch('/Gitar/server/catalog.json')
+fetch('/Guitar/server/catalog.json')
     .then(res => res.json())
     .then(body =>{
         CATALOG = body;
