@@ -21,13 +21,13 @@ class shopping {
         });
 
         const html = `
-            <div class="shopping-container">
-                <div class="shopping__close" onclick="shoppingPage.handleClear()"></div>
+        <div class="shopping-container">
+            <div class="shopping__close" onclick="shoppingPage.handleClear()"></div>
                 <table>
                     ${htmlCatalog}
                      <tr>
                         <td class="shopping-element__name">✨ Сумма:</td>
-                        <td class="shopping-element__price">${sumCatalog.toLocaleString()} USD</td>
+                        <td class="shopping-element__price">💸 ${sumCatalog.toLocaleString()} USD</td>
                     </tr>
                 </table>
             </div>

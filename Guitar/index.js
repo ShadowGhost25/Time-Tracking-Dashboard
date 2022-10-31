@@ -6,6 +6,8 @@ function render () {
     productsPage.render();
 }
 
+spinnerPage.render();
+
 let CATALOG = [];
 
 //http://myjson.dit.upm.es/api/bins/e986
@@ -14,7 +16,12 @@ fetch('/Guitar/server/catalog.json')
     .then(res => res.json())
     .then(body =>{
         CATALOG = body;
-        render()
+
+        setTimeout(() =>{
+            spinnerPage.handleClear();
+            render();
+        }, 1000);
+        
     })
     .catch(error => {
         console.log(error);
