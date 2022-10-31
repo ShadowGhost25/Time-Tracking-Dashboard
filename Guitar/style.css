@@ -10,6 +10,8 @@ body{
     background-color: var(--color-light);
 }
 :root {
+    --color-error-light: rgb(12, 124, 15);
+    --color-error-dark: rgb(9, 12, 9);
     --color-gradient:linear-gradient(blue, pink);
     --color-unaccent:rgb(35, 66, 6);
     --color-light: rgb(209, 201, 202);
