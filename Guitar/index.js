@@ -16,7 +16,6 @@ fetch('/Guitar/server/catalog.json')
     .then(res => res.json())
     .then(body =>{
         CATALOG = body;
-
         setTimeout(() =>{
             spinnerPage.handleClear();
             render();

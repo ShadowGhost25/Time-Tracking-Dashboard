@@ -27,7 +27,6 @@
     margin-top: var(--spacing-medium);
     object-fit: contain;
     border-radius: var(--border-radius);
-    
 }
 .products__price{
     margin-top: var(--spacing-medium);

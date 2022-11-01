@@ -7,7 +7,7 @@ class Header {
         const html = `
             <div class="header-container">
                 <div class="header-counter" onclick="headerPage.handleOpenShoppingPage();">
-                   <div class = "header-guitar"> <img class = "header-img" src="/Guitar/Componets/Header/guitar-playing.png" /> Guitar Shop</div> 👾 ${count}
+                   <div> <img class="header-img" src="/Guitar/Componets/Header/guitar-playing.png" /> Guitar Shop</div> 👾 ${count}
                 </div>
             </div>
             
