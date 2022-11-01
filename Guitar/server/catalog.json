@@ -28,5 +28,11 @@
         "name": "Fender Custom Shop 1961 Jazz Bass Heavy Relic Aged Lake Placid Blue",
         "img": "./images/bass2.jpg",
         "price": 649.99
+    },
+    {
+        "id": "el6",
+        "name": "Gretsch Guitars G5427T Electromatic Hollowbody Single-Cut Flame Maple Top With Bigsby Limited-Edition Electric Guitar Orange Stain",
+        "img": "./images/electro2.jpg",
+        "price": 749.99
     }
 ]

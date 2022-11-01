@@ -24,9 +24,9 @@
 }
 .products__img{
     width: 100%;
-    height: 270px;
     margin-top: var(--spacing-medium);
     object-fit: contain;
+    border-radius: var(--border-radius);
     
 }
 .products__price{
@@ -42,8 +42,9 @@
     outline: none;
     background: none;
     font-family: 'Oswald', sans-serif;
+    font-weight: 600;
 }
 .products__btn_active{
     border: 1px solid transparent;
-    background: var(--color-gradient);
+    background: var(--color-rgb);
 }

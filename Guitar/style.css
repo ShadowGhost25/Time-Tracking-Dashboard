@@ -12,8 +12,7 @@ body{
 :root {
     --color-error-light: rgb(12, 124, 15);
     --color-error-dark: rgb(9, 12, 9);
-    --color-gradient:linear-gradient(blue, pink);
-    --color-unaccent:rgb(35, 66, 6);
+    --color-unaccent:rgb(11, 14, 8);
     --color-light: rgb(209, 201, 202);
     --color-rgb: rgba(20, 60, 93, 0.4);
     --color-medium: rgba(20, 60, 93, 0.4);
