@@ -10,7 +10,6 @@ class Header {
                    <div> <img class="header-img" src="/Guitar/Componets/Header/guitar-playing.png" /> Guitar Shop</div> 👾 ${count}
                 </div>
             </div>
-            
         `
         Root_Header.innerHTML = html;
     }
